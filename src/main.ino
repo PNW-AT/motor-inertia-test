@@ -17,5 +17,8 @@ void loop()
 {
     encoder.run();
     Serial.println(encoder.getPos());
+
+    motor.set(encoder.getVel() * -0.01);
+
     delay(500);
 }
