@@ -1,6 +1,6 @@
 # motor inertia test
 
-testing whether a motor can make a wheel feel like it has different amounts of ineria 
+Testing whether a motor can make a wheel feel like it has different amounts of inertia.
 
 
 ### Libraries used:
