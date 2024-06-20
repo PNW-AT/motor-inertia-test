@@ -16,9 +16,7 @@ void setup()
 void loop()
 {
     encoder.run();
-    Serial.println(encoder.getPos());
+    Serial.println(encoder.getVel());
 
-    motor.set(encoder.getVel() * -0.01);
-
-    delay(500);
+    motor.set(encoder.getVel() * -0.1);
 }
